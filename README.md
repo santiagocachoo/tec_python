@@ -1,0 +1,1 @@
+clases de modulo de python en modelacion computacional aplicando leyes de conservacion de semestre 1 de itc

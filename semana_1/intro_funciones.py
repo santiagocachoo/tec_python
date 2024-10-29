@@ -27,5 +27,3 @@ def caida_libre(altura):
     """
     gravedad = 9.81
     return m.sqrt(2*gravedad*altura)
-
-
