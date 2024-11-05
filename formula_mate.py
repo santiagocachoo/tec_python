@@ -11,6 +11,7 @@ volumen_total = np.array([0, 0.3, 2.3, 10.1, 24.6, 44.4, 67.7, 92.9,
                           365.7, 380.1, 393.7, 406.6, 418.7, 430.4, 
                           441.6, 451.8, 461.7, 471.3])
 
+# FORMULA 1 
 # funcion
 def funcion(t, a, b):
     return np.exp(a + (b / t))
@@ -21,3 +22,9 @@ a, b = params
 
 print(f'Valor de a: {a}')
 print(f'Valor de b: {b}')
+
+
+# FORMULA 2 (polinomial de grado 4)
+# calcular coeficientes de un polinomio de grado 4
+coeficientes_polinomio = np.polyfit(edad_siembra, volumen_total, 4)
+print ('Coeficientes del polinomio de grado 4:', coeficientes_polinomio)
